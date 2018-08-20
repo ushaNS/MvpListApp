@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="@dimen/padding_16dp"
+    android:layout_marginRight="@dimen/padding_16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="@android:color/white"
+    android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/news_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY" />
+
+
+        <TextView
+            android:paddingLeft="@dimen/padding_10dp"
+            android:layout_weight="2"
+            android:textSize="@dimen/large_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/news_head_line"
+            android:textColor="@color/dark_text"
+            fontPath="fonts/SF-UI-Display_Heavy_Cyrillic.otf" />
+
+
+        <TextView
+            android:padding="@dimen/padding_10dp"
+            android:textColor="@color/secondaryText"
+            android:textSize="@dimen/medium_text_size"
+            android:layout_marginTop="@dimen/padding_10dp"
+            android:layout_marginBottom="@dimen/padding_10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/news_content"
+            android:gravity="center_vertical"
+            fontPath="@string/cyrillic_semiBold_font"
+            android:drawablePadding="@dimen/padding_5dp" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

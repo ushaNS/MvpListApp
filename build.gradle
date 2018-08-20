@@ -1,0 +1,38 @@
+buildscript {
+
+    ext{
+        supportLibraryVersion = '27.1.1'
+        rxJavaVersion='2.1.12'
+        rxAndroidVersion='2.0.2'
+        rxRetrofitVersion='2.3.0'
+        butterKnifeVersion='8.8.1'
+        playServiceVersion='12.0.1'
+        oneSignalVersion='3.9.3'
+        daggerVersion='2.10'
+    }
+
+
+
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.4'
+        
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MVP List</string>
+
+    <string name="toolbar_bold">fonts/SF-UI-Display_Heavy_Cyrillic.otf</string>
+    <string name="cyrillic_bold_font">fonts/SF-UI-Display_Bold_Cyrillic.otf</string>
+    <string name="cyrillic_semiBold_font">fonts/SF-UI-Display_Semibold_Cyrillic.otf</string>
+    <string name="str_please_wait">Please wait..</string>
+
+</resources>
